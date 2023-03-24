@@ -1,5 +1,8 @@
 # Hormones-Unit-Converter
 This is a user-friendly GUI application that allows users to convert between hormone units, made for anyone trans by a trans woman :)
+Preview:
+
+<img src="https://user-images.githubusercontent.com/128720924/227540901-9d70791d-3318-49ba-aea8-b12adadd6164.png" height="500" />
 
 **Features:**
 
