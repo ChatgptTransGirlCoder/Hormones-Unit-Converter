@@ -4,7 +4,9 @@ This is a user-friendly GUI application that allows users to convert hormone uni
 **Features:**
 
 **# Hormone sections: Estradiol, Testosterone, Prolactin, and Progesterone.**
+
 **# Multiple units to convert between in each hormone section.**
+
 **# Recommended range of values for each hormone.**
 
 **# Conversion of values from the original unit to the desired unit, with the option to switch the original and desired units.**
