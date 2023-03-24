@@ -1,19 +1,25 @@
 # Hormones-Unit-Converter
-This is a GUI application that allows users to convert hormone units, made for trans women by a trans woman :)
+This is a user-friendly GUI application that allows users to convert hormone units, made for anyone trans by a trans woman :)
 
-Overview of the script:
+**Features:**
 
-When the script is run, it creates a window with four hormone sections: estradiol, testosterone, prolactin, and progesterone. Each section has several units to convert between and a recommended range of values.
+**# Hormone sections: Estradiol, Testosterone, Prolactin, and Progesterone.**
 
-The user enters a value and selects the original unit and the desired unit to convert to. The program then converts the value and displays the result in the new unit.
+**# Multiple units to convert between in each hormone section.**
 
-There is also a graphical representation of the converted value compared to the recommended range for each hormone. A dot on the graph indicates the converted value, and the dot's color changes to red or green depending on whether the value is outside or inside the recommended range.
+**# Recommended range of values for each hormone.**
 
-The GUI also includes buttons for copying the converted result to the clipboard and for switching the original and desired units.
+**# Conversion of values from the original unit to the desired unit, with the option to switch the original and desired units.**
 
-To run the script, You need Python and PyQt5. As long as your operating system has both of these installed, you can run the program.
+**# Graphical representation of the converted value compared to the recommended range.**
 
-To get PyQt5, you need to have Python installed. Once you have Python, you can use the command prompt to install PyQt5 with this command:
+**# Copying of the converted result to the clipboard.**
+
+**Running the script:**
+
+To run the script, you have two options. **Easier option**, you can download and run the **pre-made .exe file** from the **Releases** page. Second option, you can run the program yourself, but you will need to have **Python** and **PyQt5** installed on your computer.
+
+First, download the **HormonesConverter.py** file by clicking on the green **"<> Code"** button, and clicking **Download as ZIP**, extract the folder and move the **HormonesConverter.py** to where you want it to be. Then, install Python, you can find the download at **https://www.python.org/downloads/** . To get **PyQt5**, you need to have Python installed. Once you have Python, you can use the command prompt (type cmd into search) to install PyQt5 with this command:
 pip install PyQt5
 
 Enjoy :D
