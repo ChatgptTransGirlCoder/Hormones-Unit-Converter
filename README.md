@@ -1,5 +1,5 @@
 # Hormones-Unit-Converter
-This is a user-friendly GUI application that allows users to convert hormone units, made for anyone trans by a trans woman :)
+This is a user-friendly GUI application that allows users to convert between hormone units, made for anyone trans by a trans woman :)
 
 **Features:**
 
@@ -19,7 +19,8 @@ This is a user-friendly GUI application that allows users to convert hormone uni
 
 To run the script, you have two options. **Easier option**, you can download and run the **pre-made .exe file** from the **Releases** page [Here](https://github.com/ChatgptTransGirlCoder/Hormones-Unit-Converter/releases). Second option, you can run the program yourself, but you will need to have **Python** and **PyQt5** installed on your computer.
 
-First, download the **HormonesConverter.py** file by clicking on the green **"<> Code"** button, and clicking **Download ZIP**, extract the folder and move the **HormonesConverter.py** to where you want it to be. Then, install Python, you can find the download at **https://www.python.org/downloads/** . To get **PyQt5**, you need to have Python installed. Once you have Python, you can use the command prompt (type cmd into search) to install PyQt5 with this command:
-pip install PyQt5
+First, download the **HormonesConverter.py** file by clicking on the green **"<> Code"** button, and clicking **Download ZIP**, extract the folder and move the **HormonesConverter.py** to where you want it to be. Then, install Python, you can find the download at **https://www.python.org/downloads/** . To get **PyQt5**, you need to have Python installed. Once you have Python, you can use the command prompt (type cmd into search) and type:
+
+```pip install PyQt5```
 
 Enjoy :D
