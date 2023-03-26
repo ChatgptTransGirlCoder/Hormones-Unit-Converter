@@ -22,7 +22,7 @@ Preview:
 
 To run the script, you have two options. **Easier option**, you can download and run the **pre-made .exe file** from the **Releases** page [Here](https://github.com/ChatgptTransGirlCoder/Hormones-Unit-Converter/releases). Second option, you can run the program yourself, but you will need to have **Python** and **PyQt5** installed on your computer.
 
-First, download the **HormonesConverter.py** file by clicking on the green **"<> Code"** button, and clicking **Download ZIP**, extract the folder and move the **HormonesConverter.py** to where you want it to be. Then, install Python, you can find the download at **https://www.python.org/downloads/** . To get **PyQt5**, you need to have Python installed. Once you have Python, you can use the command prompt (type cmd into search) and type:
+First, download the **HormonesConverter.py** file in the Releases page, you can choose one of the 2 versions based on your preference. Then, install Python, you can find the download at **https://www.python.org/downloads/** . To get **PyQt5**, you need to have Python installed. Once you have Python, you can use the command prompt (type cmd into search) and type:
 
 ```pip install PyQt5```
 
