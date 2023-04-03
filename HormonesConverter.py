@@ -10,22 +10,22 @@ class Converter(QWidget):
 
     CONVERSIONS = {
         'estradiol': {
-            'pg/mL': {'pmol/L': lambda x: x*3.671341463414634},
+            'pg/mL': {'pmol/L': lambda x: x*3.671341463414634, 'pg/mL': lambda x:x},
             'pmol/L': {'pg/mL': lambda x: x/3.671341463414634}
         },
         'testosterone': {
-            'ng/dL': {'nmol/L': lambda x: x/28.842, 'ng/mL': lambda x: x/100},
+            'ng/dL': {'nmol/L': lambda x: x/28.842, 'ng/mL': lambda x: x/100, 'ng/dL': lambda x:x},
             'nmol/L': {'ng/dL': lambda x: x*28.842, 'ng/mL': lambda x: x/3.46716505301953},
             'ng/mL': {'nmol/L': lambda x: x/0.2884200070627729, 'ng/dL': lambda x: x*3.46716505301953}
         },
         'prolactin': {
+            'ng/mL': {'mIU/L': lambda x: x * 21.27659574468085, 'µg/L': lambda x: x * 1, 'ng/mL': lambda x:x},
             'mIU/L': {'ng/mL': lambda x: x / 21.27659574468085, 'µg/L': lambda x: x / 21.27659574468085},
-            'ng/mL': {'mIU/L': lambda x: x * 21.27659574468085, 'µg/L': lambda x: x * 1},
             'µg/L': {'mIU/L': lambda x: x * 21.27659574468085, 'ng/mL': lambda x: x * 1}
         },
         'progesterone': {
+            'ng/mL': {'nmol/L': lambda x: x / 0.314460162601626, 'pmol/L': lambda x: x * 1000 / 0.314460162601626, 'ng/dL': lambda x: x * 10, 'ng/mL': lambda x:x},
             'nmol/L': {'ng/mL': lambda x: x * 0.314460162601626, 'pmol/L': lambda x: x * 1000, 'ng/dL': lambda x: x * 31.446},
-            'ng/mL': {'nmol/L': lambda x: x / 0.314460162601626, 'pmol/L': lambda x: x * 1000 / 0.314460162601626, 'ng/dL': lambda x: x * 10},
             'pmol/L': {'nmol/L': lambda x: x / 1000, 'ng/mL': lambda x: x * 0.314460162601626 / 1000, 'ng/dL': lambda x: x * 31.446 / 1000},
             'ng/dL': {'nmol/L': lambda x: x / 31.446, 'ng/mL': lambda x: x / 10, 'pmol/L': lambda x: x * 1000 / 31.446}
         }
@@ -185,7 +185,7 @@ class Converter(QWidget):
 
     def convert(self, hormone, value, from_unit, to_unit):
         if from_unit == to_unit:
-            message = "You can't convert from the same unit to the same unit."
+            message = value
             if hormone == 'estradiol':
                 self.estradiol_result_label.setText(message)
             elif hormone == 'testosterone':
