@@ -1,4 +1,4 @@
-# Made with love by Liya#6320 on Discord <3
+# Made with love by FayEstrogirl on Discord <3
 import sys
 from functools import partial
 from PyQt5.QtWidgets import QApplication, QHBoxLayout, QDesktopWidget, QLabel, QLineEdit, QPushButton, QComboBox, QVBoxLayout, QWidget, QGraphicsEllipseItem, QGraphicsLineItem, QGraphicsScene, QGraphicsView
